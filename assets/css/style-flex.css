@@ -1,0 +1,76 @@
+/* 1. Ajouter les propriétés flex permettant de positionner les éléments de la barre de navigation. Les items doivent être centrés verticalement et être répartis uniformément sur l’axe horizontal. */
+header ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* 2. À l’aide de propriétés flex, positionnez les éléments du hero. */
+header>div{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* 3. À l’aide de propriétés flex, positionnez les éléments de la section de présentation. */
+#presentation{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: row-reverse;
+}
+/* #presentation>img{
+    display: flex;
+    order:0;
+}
+ #presentation>div{
+    display:flex;
+    flex-direction: column;
+    order:1;
+} */
+
+/* 4. À l’aide de propriétés flex, positionnez les éléments de la section des parfums de glaces. Faites en sorte que les éléments retournent à la ligne en cas d’ajout de parfums.  */
+
+#flavors > div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+   
+}
+#flavors div > div{
+    display: flex;
+    flex-direction: column;   
+}
+#flavors img{
+    order:-1;
+}
+
+/* 5. À l’aide de propriétés flex, positionnez l’image à côté du formulaire d’inscription à la newsletter. */
+#newsletter>div{
+    display:flex;
+}
+/* #newsletter img{
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-end; 
+ } */
+
+/* 6. À l’aide de propriétés flex, positionnez les éléments du formulaire. */
+#newsletter form{
+    display:flex;
+    flex-direction:column;
+ }
+/* 7. À l’aide de propriétés flex, positionnez les éléments du pied de page. */
+footer div {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between; 
+
+}
+ footer ul{
+    display:flex;
+}
+ /* footer p{
+    display: flex;
+    justify-content: center;
+}  */

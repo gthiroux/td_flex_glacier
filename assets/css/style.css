@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 100vh;
+}
+
+header nav ul {
+    list-style: none;
+    height: 10vh;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    font-size: 1.4rem;
+    border-bottom: 1px solid #88D3D0;
+    box-shadow: 0px 2px 8px #88D3D0;
+}
+
+header nav ul a {
+    color: #88D3D0;
+}
+
+header nav ul a:hover {
+    color: #62a6a4;
+}
+
+header nav + div {
+    height: 90vh;
+    padding: 0 10vw;
+}
+
+header div>div {
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.2rem;
+}
+
+h1 {
+    font-family: "Pacifico", cursive;
+    font-size: 4rem;
+    color: #88D3D0;
+}
+
+header p {
+    margin: 10px 0 50px 0;
+    width: 40vw;
+}
+
+header img {
+    width: 30vw;
+}
+
+header div a {
+    padding: 20px 50px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: #88D3D0 3px solid;
+    color: #88D3D0;
+}
+
+header div a:hover {
+    background-color: #88D3D0;
+    color: #ffffff;
+}
+
+#presentation {
+    padding: 15vh 10vw 15vh 10vw;
+    background-color: #88D3D0;
+    color: #ffffff;
+}
+
+#presentation div {
+    width: 50vw;
+}
+
+#presentation h2 {
+    font-family: "Pacifico", cursive;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#presentation p {
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+#presentation a{
+    padding: 10px 30px;
+    border-radius: 8px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #ffffff;
+    color: #88D3D0;
+}
+
+#presentation a:hover{
+    background-color: #88D3D0;
+    color: #ffffff;
+    border: #ffffff 3px solid;
+}
+
+#flavors{
+    padding: 5vh 10vw 15vh 10vw;
+}
+
+#flavors h2{
+    color: #88D3D0;
+    font-family: "Pacifico", cursive;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+#flavors > div{
+    font-family: "Quicksand", sans-serif;
+}
+
+#flavors > div > div{
+    width: 20vw;
+}
+
+#flavors img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+
+#flavors h3{
+    text-align: center;
+    margin: 2vh 0 1vh 0;
+    color: #88D3D0;
+    font-size: 1.2rem;
+}
+
+#newsletter {
+    padding: 5vh 10vw 10vh 10vw;
+    background-color: #88D3D0;
+    color: #ffffff;
+    font-family: "Quicksand", sans-serif;
+}
+
+#newsletter h2{
+    font-family: "Pacifico", cursive;
+    font-size: 2.5rem;
+}
+
+#newsletter p{
+    width: 40vw;
+    margin: 2vh 0;
+}
+
+#newsletter img{
+    margin: auto;
+}
+
+#newsletter form{
+    margin-top: 1vh;
+    width: 40vw;
+}
+
+#newsletter form input{
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+}
+
+#newsletter form input[type="email"]{
+    margin-top: 1vh;
+    margin-bottom: 0.5vh;
+}
+
+#newsletter input::placeholder{
+    font-style: italic;
+}
+
+#newsletter input[type="checkbox"] + label{
+    font-size: 0.8rem;
+}
+
+#newsletter input[type="checkbox"] + label a{
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+#newsletter input[type="submit"]{
+    margin-top: 2vh;
+    background-color: #ffffff;
+    color: #88D3D0;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: "Quicksand", sans-serif;
+    border: #ffffff 3px solid;
+}
+
+#newsletter input[type="submit"]:hover{
+    background-color: #88D3D0;
+    color: #ffffff;
+}
+
+footer{
+    background-color: #62a6a4;
+    color: #ffffff;
+    padding: 3vh 10vw;
+    font-family: "Quicksand", sans-serif;
+}
+
+footer ul{
+    list-style: none;
+    font-size: 0.9rem;
+}
+
+footer li a{
+    margin-right: 16px;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+footer p{
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+footer img{
+    margin-left: 16px;
+}
